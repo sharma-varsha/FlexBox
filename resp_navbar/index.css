@@ -1,0 +1,13 @@
+.container {
+    padding: 0;
+}
+.container > li {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    box-sizing: border-box;
+    list-style-type: none;
+  }
+
+  

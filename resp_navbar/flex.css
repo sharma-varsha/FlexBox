@@ -1,0 +1,24 @@
+.container {
+    border: 10px solid #ffccdd;
+    display: flex;
+}
+.container > li {
+    flex: 1;
+}
+
+/*  using flex-grow/flex-shrink and flex-basis to control the layout */ 
+@media all and (max-width: 720px){
+    .container {
+        flex-wrap: wrap;
+    }
+    .container > li {
+        flex: 1 1 50%;
+    }
+}
+
+@media all and (max-width: 400px){
+    .container > li {
+        flex: 1 1 100%;
+        margin-bottom: 15px;  
+    }
+}
